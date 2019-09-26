@@ -1,5 +1,3 @@
-# gulp-boilerplate
+# Design System
 
-1. `git clone` this repo
-1. `npm i` **or** `npm install`
-1. `gulp`
+(work in progress)
