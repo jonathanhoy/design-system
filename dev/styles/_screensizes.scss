@@ -1,0 +1,26 @@
+.screensize {
+  background: $grey;
+  p {
+    margin: 0;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .screensize--md, .screensize--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 48rem) and (max-width: 63.9375rem) {
+  .screensize--sm, .screensize--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 64rem) {
+  .screensize--sm, .screensize--md {
+    display: none;
+  }
+}

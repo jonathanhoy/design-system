@@ -131,6 +131,51 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto; }
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif; }
+
+@media (min-width: 64rem) {
+  .heading--1 {
+    font-size: 5rem; } }
+
+@media (max-width: 63.9375rem) {
+  .heading--1 {
+    font-size: 4.5rem; } }
+
+@media (max-width: 47.9375rem) {
+  .heading--1 {
+    font-size: 3rem; } }
+
+@media (min-width: 64rem) {
+  .heading--2 {
+    font-size: 4rem; } }
+
+@media (max-width: 63.9375rem) {
+  .heading--2 {
+    font-size: 3.5rem; } }
+
+@media (max-width: 47.9375rem) {
+  .heading--2 {
+    font-size: 3rem; } }
+
+.screensize {
+  background: #F5F5F5; }
+  .screensize p {
+    margin: 0;
+    padding: 2rem;
+    font-size: 2rem; }
+
+@media (max-width: 47.9375rem) {
+  .screensize--md, .screensize--lg {
+    display: none; } }
+
+@media (min-width: 48rem) and (max-width: 63.9375rem) {
+  .screensize--sm, .screensize--lg {
+    display: none; } }
+
+@media (min-width: 64rem) {
+  .screensize--sm, .screensize--md {
+    display: none; } }
+
+.wrapper {
+  padding: 2rem; }
