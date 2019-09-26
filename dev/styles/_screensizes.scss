@@ -7,19 +7,19 @@
   }
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: $sm) {
   .screensize--md, .screensize--lg {
     display: none;
   }
 }
 
-@media (min-width: 48rem) and (max-width: 63.9375rem) {
+@media (min-width: 48rem) and (max-width: $md) {
   .screensize--sm, .screensize--lg {
     display: none;
   }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: $lg) {
   .screensize--sm, .screensize--md {
     display: none;
   }

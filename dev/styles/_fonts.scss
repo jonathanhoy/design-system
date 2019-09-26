@@ -1,90 +1,121 @@
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
 }
 
 .heading {
+  margin: 0;
   &--1 {
     // Large up
-    @media (min-width: 64rem) {
+    @media (min-width: $lg) {
       font-size: 5rem;
     }
     // Medium up
-    @media (max-width: 63.9375rem) {
+    @media (max-width: $md) {
       font-size: 4.5rem;
     }
     // Small up
-    @media (max-width: 47.9375rem) {
+    @media (max-width: $sm) {
       font-size: 3rem;
     }
   }
   &--2 {
     // Large up
-    @media (min-width: 64rem) {
+    @media (min-width: $lg) {
       font-size: 4rem;
     }
     // Medium up
-    @media (max-width: 63.9375rem) {
+    @media (max-width: $md) {
       font-size: 3.5rem;
     }
     // Small up
-    @media (max-width: 47.9375rem) {
+    @media (max-width: $sm) {
       font-size: 3rem;
     }
   }
   &--3 {
     // Large up
-    @media (min-width: 64rem) {
+    @media (min-width: $lg) {
       
     }
     // Medium up
-    @media (max-width: 63.9375rem) {
+    @media (max-width: $md) {
       
     }
     // Small up
-    @media (max-width: 47.9375rem) {
+    @media (max-width: $sm) {
       
     }
   }
   &--4 {
     // Large up
-    @media (min-width: 64rem) {
+    @media (min-width: $lg) {
       
     }
     // Medium up
-    @media (max-width: 63.9375rem) {
+    @media (max-width: $md) {
       
     }
     // Small up
-    @media (max-width: 47.9375rem) {
+    @media (max-width: $sm) {
       
     }
   }
   &--5 {
     // Large up
-    @media (min-width: 64rem) {
+    @media (min-width: $lg) {
       
     }
     // Medium up
-    @media (max-width: 63.9375rem) {
+    @media (max-width: $md) {
       
     }
     // Small up
-    @media (max-width: 47.9375rem) {
+    @media (max-width: $sm) {
       
     }
   }
   &--6 {
     // Large up
-    @media (min-width: 64rem) {
+    @media (min-width: $lg) {
       
     }
     // Medium up
-    @media (max-width: 63.9375rem) {
+    @media (max-width: $md) {
       
     }
     // Small up
-    @media (max-width: 47.9375rem) {
+    @media (max-width: $sm) {
       
     }
   }
+}
+
+.nav {
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  li {
+    padding: 0 0.5rem;
+  }
+  a {
+
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: $bodyText;
+  font-size: 1rem;
+  &:hover {
+    border-bottom: 2px solid black;
+  }
+}
+
+.text {
+  color: $bodyText;
+  font-weight: 300;
+  line-height: 1.8;
 }
